@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parentbox {
+    padding: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 100px);
+    gap: 30px;
+}
+.box{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: blue;
+}
+.box3 {
+    background-color: green;
+}
+.box4 {
+    background-color: yellow;
+}
+.box5 {
+    background-color: purple;
+}
+.box6 {
+    background-color: orange;
+}
+.box7 {
+    background-color: pink;
+}
+.box8 {
+    background-color: cyan;
+}
